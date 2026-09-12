@@ -52,6 +52,8 @@ judge stays human-decided.
 
 ## Done
 
-`status: clean` means stop and ask the human for a visual check in the
-Protocol Visualizer. In VS Code a new `.py` protocol opens the panel
-automatically. Otherwise run `Visualizer: Open Protocol Visualizer`.
+`status: clean` means stop and hand the visual check to the human. You
+cannot open the panel yourself. Tell the human the exact next step:
+run `Visualizer: Open Protocol Visualizer` from the Command Palette.
+A newly created `.py` protocol opens the panel automatically when the
+extension is active in that window.
