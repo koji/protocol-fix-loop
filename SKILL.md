@@ -1,6 +1,9 @@
 ---
 name: protocol-fix-loop
 description: Generate or edit an Opentrons protocol, then verify it headlessly and fix until clean. Reach for it when asked to create a protocol or when a protocol check reports dirty.
+metadata:
+  author: koji
+  version: "1.0"
 ---
 
 # Protocol Fix Loop
